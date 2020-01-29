@@ -1,0 +1,9 @@
+.dog {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
