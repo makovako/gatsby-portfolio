@@ -1,3 +1,23 @@
+# Testing gatsby
+
+## My notes
+
+- complete components into components
+- create basic layout, in my case Container
+- normal pages are in `pages` folder
+- templates for generating sites are in `tempaltes` folder
+- other components with css modules in `components`
+- using markdown in `content` folder
+- in gatsby-node - onCreateNode and createPages API used
+
+### Deployment notes
+
+- `gatsby build`
+- `gatsby server`
+- for pwa need to create manifest, add offline support
+- for editing head element, use `helmet`
+- SEO stuff, special component
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -96,20 +116,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## My notes
-
-- complete components into components
-- create basic layout, in my case Container
-- normal pages are in `pages` folder
-- templates for generating sites are in `tempaltes` folder
-- other components with css modules in `components`
-- using markdown in `content` folder
-- in gatsby-node - onCreateNode and createPages API used
-
-### Deployment notes
-
-- `gatsby build`
-- `gatsby server`
-- for pwa need to create manifest, add offline support
-- for editing head element, use `helmet`
-- SEO stuff, special component
